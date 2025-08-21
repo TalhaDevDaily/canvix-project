@@ -2,6 +2,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
+  RouterProvider,
 } from "react-router";
 import "./App.css";
 import React from "react";
@@ -17,7 +18,11 @@ const App = () => {
     )
   );
 
-  return <div>App</div>;
+  return (
+    <>
+      <RouterProvider router={pageRoute} />
+    </>
+  );
 };
 
 export default App;

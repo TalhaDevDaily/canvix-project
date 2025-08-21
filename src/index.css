@@ -3,3 +3,16 @@
 @utility container {
   margin-inline: auto;
 }
+
+@theme {
+  /* Text Color */
+  --color-primary: #fbfbfb;
+  --color-brand: #64ccc5;
+
+  /* Font Family */
+  --font-dm-sans: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: black;
+}
