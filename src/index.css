@@ -11,6 +11,17 @@
 
   /* Font Family */
   --font-dm-sans: "DM Sans", sans-serif;
+  --font-roboto-serif: "Roboto Serif", serif;
+}
+
+@keyframes slow-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 html {
@@ -18,5 +29,5 @@ html {
 }
 
 body {
-  background-color: black;
+  /* overflow-x: hidden !important; */
 }

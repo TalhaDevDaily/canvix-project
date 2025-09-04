@@ -34,7 +34,7 @@ const RespoNav = () => {
 
   return (
     <>
-      <nav className="lg:hidden px-2 py-3">
+      <nav className="lg:hidden px-2 py-3 overflow-x-hidden absolute top-0 left-0 w-full z-20">
         <div className="container">
           <div className="menu-row flex items-center justify-between">
             <Link className="w-[12rem]" to={"/"}>
@@ -58,7 +58,7 @@ const RespoNav = () => {
         )}
 
         <div
-          className={`w-[25rem] h-screen bg-white absolute top-0 right-0 ${
+          className={`w-[25rem] h-screen bg-white absolute top-0 ${
             showNav ? "right-0" : "right-[-100%]"
           } duration-[0.4s] flex justify-center items-center flex-col gap-20`}
         >

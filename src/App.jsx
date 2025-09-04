@@ -7,13 +7,13 @@ import {
 import "./App.css";
 import React from "react";
 import LayoutMain from "./layouts/LayoutMain";
-import Hero from "./pages/Hero";
+import Home from "./pages/Home";
 
 const App = () => {
   const pageRoute = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<LayoutMain />}>
-        <Route index element={<Hero />} />
+        <Route index element={<Home />} />
       </Route>
     )
   );
