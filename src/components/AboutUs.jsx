@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import aboutUsImg from "../assets/images/aboutUs.png";
 import HeaderSecondary from "./common/HeaderSecondary";
 import CommonButton from "./common/CommonButton";
+import CountUp from "react-countup";
 
 const AboutUs = () => {
+  const [countState, setCountState] = useState(false);
+
   return (
     <>
       <section className="aboutUsSection py-[10rem] px-[26rem] bg-[#0c0c0c] flex justify-between">
@@ -25,10 +28,10 @@ const AboutUs = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit metus ut
             tortor purus tincidunt sed lectus ut eros, turpis tincidunt id.
           </p>
-          <div className="stats flex gap-[5.9rem] mb-[3.2rem]">
+          <div className="stats flex gap-[5.9rem]">
             <div>
               <h3 className="font-roboto-serif font-semibold text-[4.5rem] text-brand">
-                330 +
+                <CountUp end={330} duration={2}></CountUp> +
               </h3>
               <p className="font-dm-sans text-[1.6rem] tracking-[3%] text-[#f4f4f4]">
                 Companies helped
@@ -36,7 +39,7 @@ const AboutUs = () => {
             </div>
             <div>
               <h3 className="font-roboto-serif font-semibold text-[4.5rem] text-brand">
-                230 +
+                <CountUp end={230} duration={2}></CountUp> +
               </h3>
               <p className="font-dm-sans text-[1.6rem] tracking-[3%] text-[#f4f4f4]">
                 Revenue generated
