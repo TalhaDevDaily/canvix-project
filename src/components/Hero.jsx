@@ -46,7 +46,7 @@ const Hero = () => {
             </div>
 
             <div className="featuredBrands">
-              <p className="text-[20px] font-semibold text-brand font-roboto-serif">
+              <p className="text-[20px] font-semibold text-brand font-roboto-serif mt-[181px]">
                 Trusted by Leading Brands
               </p>
               <div className="featuredImg flex gap-[10px] flex-wrap mt-[13px]">

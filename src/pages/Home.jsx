@@ -5,6 +5,7 @@ import AboutUs from "../components/AboutUs";
 import TempButtons from "../components/TempButtons";
 import Process from "../components/Process";
 import Showcase from "../components/ShowCase";
+import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       <AboutUs />
       <Process />
       <Showcase />
-      <TempButtons />
+      <Testimonials />
+      {/* <TempButtons /> */}
     </>
   );
 };

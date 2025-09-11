@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router";
 import Nabvar from "../components/Nabvar";
 import RespoNav from "../components/RespoNav";
+import Footer from "../components/Footer";
 
 const LayoutMain = () => {
   return (
@@ -9,6 +10,7 @@ const LayoutMain = () => {
       <Nabvar />
       <RespoNav />
       <Outlet />
+      <Footer />
     </>
   );
 };
