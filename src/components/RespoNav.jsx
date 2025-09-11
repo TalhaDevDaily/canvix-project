@@ -37,7 +37,7 @@ const RespoNav = () => {
       <nav className="lg:hidden px-2 py-3 overflow-x-hidden absolute top-0 left-0 w-full z-20">
         <div className="container">
           <div className="menu-row flex items-center justify-between">
-            <Link className="w-[12rem]" to={"/"}>
+            <Link className="w-[120px]" to={"/"}>
               <img src={logo} alt="logo" />
             </Link>
 
@@ -58,7 +58,7 @@ const RespoNav = () => {
         )}
 
         <div
-          className={`w-[25rem] h-screen bg-white absolute top-0 ${
+          className={`w-[250px] h-screen bg-white absolute top-0 ${
             showNav ? "right-0" : "right-[-100%]"
           } duration-[0.4s] flex justify-center items-center flex-col gap-20`}
         >
@@ -86,7 +86,7 @@ const RespoNav = () => {
           </ul>
 
           <Link
-            className="py-2 px-6 bg-black text-base font-normal font-dm-sans text-white rounded-[0.5rem] text-[1.6rem]"
+            className="py-2 px-6 bg-black text-base font-normal font-dm-sans text-white rounded-[5px] text-[16px]"
             to={"/"}
           >
             Get in touch

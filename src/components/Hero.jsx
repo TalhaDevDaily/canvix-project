@@ -15,19 +15,19 @@ import CommonButton from "./common/CommonButton";
 
 const Hero = () => {
   return (
-    <section className="bg-[#0c0c0c] pt-[10rem] lg:pt-[26rem] pb-[11.1rem] relative z-1 px-[1.2rem] lg:px-0">
+    <section className="bg-[#0c0c0c] pt-[100px] lg:pt-[260px] pb-[111px] relative z-1 px-[12px] lg:px-0">
       {/* -----------Hero Content */}
       <div className="container">
-        <div className="heroRow relative">
+        <div className="heroRow flex justify-between">
           <div className="heroText">
-            <h1 className="text-[3rem] lg:text-[6.1rem] font-semibold font-roboto-serif text-primary w-full lg:w-[60.8rem]">
+            <h1 className="text-[30px] lg:text-[61px] font-semibold font-roboto-serif text-primary w-full lg:w-[608px]">
               Ready to take your
-              <span className="text-brand block leading-[4rem]">
+              <span className="text-brand block leading-[40px]">
                 Business Growth
               </span>
               to the next level?
             </h1>
-            <p className="w-full lg:w-[50rem] text-primary text-sm lg:text-[1.8rem] tracking-[3%] mt-6 mb-8">
+            <p className="w-full lg:w-[500px] text-primary text-sm lg:text-[18px] tracking-[3%] mt-6 mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit- et ut
               massa libero egestas malesuada viverra gravida libero cursus nulla
               leo pulvinar.
@@ -37,7 +37,7 @@ const Hero = () => {
             <CommonButton buttonContent={"Start your Free Trial"} />
 
             {/* Hero Image Mobile */}
-            <div className="heroImgMobo 45rem] h-[45rem] lg:hidden mt-[4rem]">
+            <div className="heroImgMobo 450px] h-[450px] lg:hidden mt-[40px]">
               <img
                 src={heroImgMobo}
                 alt="Hero Image Mobile"
@@ -46,20 +46,20 @@ const Hero = () => {
             </div>
 
             <div className="featuredBrands">
-              <p className="text-[2rem] font-semibold text-brand font-roboto-serif">
+              <p className="text-[20px] font-semibold text-brand font-roboto-serif">
                 Trusted by Leading Brands
               </p>
-              <div className="featuredImg flex gap-[1rem] flex-wrap mt-[1.3rem]">
-                <img className="h-[5.4rem]" src={brand1} alt="Brand Image" />
-                <img className="h-[5.4rem]" src={brand2} alt="Brand Image" />
-                <img className="h-[5.4rem]" src={brand3} alt="Brand Image" />
-                <img className="h-[5.4rem]" src={brand4} alt="Brand Image" />
+              <div className="featuredImg flex gap-[10px] flex-wrap mt-[13px]">
+                <img className="h-[54px]" src={brand1} alt="Brand Image" />
+                <img className="h-[54px]" src={brand2} alt="Brand Image" />
+                <img className="h-[54px]" src={brand3} alt="Brand Image" />
+                <img className="h-[54px]" src={brand4} alt="Brand Image" />
               </div>
             </div>
           </div>
 
           {/* Hero Image */}
-          <div className="heroImgBox lg:w-[45rem] lg:h-[45rem] rounded-full overflow-hidden absolute top-[5rem] right-[-25%] z-20 hidden lg:inline-block">
+          <div className="heroImgBox lg:w-[450px] lg:h-[450px] rounded-full overflow-hidden top-[50px] right-[0] z-20 hidden lg:inline-block relative">
             <img
               src={heroImg}
               alt="Hero Image"
@@ -68,7 +68,7 @@ const Hero = () => {
           </div>
 
           {/* Hero Image Background */}
-          <div className="heroImgBg lg:w-[90rem] lg:h-[90rem] rounded-full overflow-hidden absolute top-[-25%] right-[-49%] z-20 hidden lg:inline-block duration-[2s]">
+          <div className="heroImgBg lg:w-[900px] lg:h-[900px] rounded-full overflow-hidden absolute top-[80px] right-[60px] z-20 hidden lg:inline-block duration-[2s]">
             <img
               src={test}
               alt="Hero Image Background"
@@ -89,7 +89,7 @@ const Hero = () => {
         className="w-full h-full absolute top-0 left-0 z-[-1]"
       ></div>
 
-      <div className="starEl w-[18.3rem] absolute top-[17.8rem] left-[-3.7rem] hidden lg:block">
+      <div className="starEl w-[183px] absolute top-[178px] left-[-37px] hidden lg:block">
         <img src={heroStarEl} alt="Hero Star Element" />
       </div>
     </section>
